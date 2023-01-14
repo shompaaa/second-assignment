@@ -221,14 +221,48 @@ body {
 }
 
 /*========================
-     COMMON STYLES 
+     SPONSOR SECTION STYLES 
 ==========================*/
-
+.sponsor {
+    margin-bottom: 130px;
+}
+.sponsor-info {
+    text-align: center;
+}
+.sponsor-info .section-description {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.sponsor-logo-container {
+    margin: 0 200px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.logo img {
+    width: 100px;
+    height: 40px;
+    filter: grayscale(100%);
+}
 
 
 /*========================
-     COMMON STYLES 
+     FOOTER SECTION STYLES 
 ==========================*/
+footer {
+    margin-bottom: 150px;
+}
+.footer {
+    margin: 0 200px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 25px 120px;
+}
+.footer .section-description {
+    text-align: center;
+}
 
 
 
