@@ -21,6 +21,7 @@ body {
 .section-description {
     font-size: 15px;
     color: #727272;
+    line-height: 25px;
 }
 .btn-primary {
     color: #FFFFFF;
@@ -39,8 +40,8 @@ body {
      HEADER STYLES 
 ==========================*/
 .header {
-    /* height: 100vh; */
     background: rgba(255, 144, 14, 0.1);
+    margin-bottom: 70px;
 }
 
 /* Navbar Styles */
@@ -97,11 +98,38 @@ body {
 }
 
 
-
-
 /*========================
-     COMMON STYLES 
+     FEATURES SECTION STYLES 
 ==========================*/
+.features {
+    margin-bottom: 130px;
+}
+.features-container {
+    display: flex;
+    gap: 70px;
+    margin: 0 200px;
+}
+.features-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.features-image-container img {
+    height: 250px;
+    width: 250px;
+}
+.features-text-container {
+    display: flex;
+    align-items: center;
+}
+.features-text-container p {
+    margin: 28px 0;
+}
+.features-text-info .title-gray {
+    color: #727272;
+}
+.features-text-info .title-orange {
+    color: #FF900E;
+}
 
 
 
