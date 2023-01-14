@@ -112,6 +112,7 @@ body {
 .features-image-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
 }
 .features-image-container img {
     height: 250px;
@@ -132,12 +133,54 @@ body {
 }
 
 
-
 /*========================
-     COMMON STYLES 
+     FEATURES LOVING STYLES 
 ==========================*/
+.features-loving {
+    margin-bottom: 130px;
+}
+.features-loving-container {
+    display: flex;
+    gap: 90px;
+    margin: 0 150px;
+}
+.feature-info-container p {
+    margin: 27px 0;
+}
+.mini-container {
+    padding: 15px 25px 15px 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.mini-container p {
+    margin-top: 10px;
+}
+.mini-title h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
 
-
+.feature-image img {
+    width: 608px;
+    height: 782px;
+}
+.big-btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 45px 42px;
+    border: 0;
+    margin-top: -750px;
+    margin-left: -40px;
+}
+.btn-year {
+    font-size: 55px;
+    font-weight: 700;
+}
 
 /*========================
      COMMON STYLES 
