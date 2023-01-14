@@ -221,6 +221,32 @@ body {
 }
 
 /*========================
+     OUR TEAM MEMBERS STYLES 
+==========================*/
+.members {
+    margin-bottom: 120px;
+}
+.members-info {
+    text-align: center;
+}
+.members-info .section-description {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.member-image-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    margin: 0 70px;
+}
+.member-image-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/*========================
      SPONSOR SECTION STYLES 
 ==========================*/
 .sponsor {
@@ -247,7 +273,6 @@ body {
     filter: grayscale(100%);
 }
 
-
 /*========================
      FOOTER SECTION STYLES 
 ==========================*/
@@ -266,9 +291,6 @@ footer {
 
 
 
-/*========================
-     COMMON STYLES 
-==========================*/
 
 
 
