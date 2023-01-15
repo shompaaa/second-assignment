@@ -12,6 +12,7 @@
 ==========================*/
 body {
     font-family: 'Work Sans', sans-serif;
+    background-color: red;
 }
 .section-title {
     font-weight: 700;
@@ -319,7 +320,7 @@ footer {
     }
     .nav-menu {
         margin-top: 30px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
     .menu ul {
         flex-direction: column;
@@ -427,7 +428,7 @@ footer {
     }
     .logo {
         flex-direction: column;
-        gap: 70px;
+        gap: 100px;
     }
     .logo img {
         width: 200px;
